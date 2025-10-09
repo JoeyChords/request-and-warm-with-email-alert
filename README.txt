@@ -5,14 +5,14 @@ could mean around 1 minute of waiting for a simple website to load. Start this
 application, leave it running, and it will request your site every 14 minutes to
 be sure that it is always available instantly. 
 
-This version also uses Sendgrid to send an email alert when something is wrong 
-with the your site. You will need a Sendgrid account and API key to use it. 
-Sendgrid has a free tier. 
+This version also uses Resend to send an email alert when something is wrong 
+with the your site. You will need a Resend.com account and API key to use it. 
+Resend has a free tier. 
 
 Instructions:
 
 Create a .env file and add COLD_URL=example.com, replacing example.com with the 
 web address for the site you wish to keep running without cold starts. You will
-also need to add EMAIL_FROM, EMAIL_TO, and SENDGRID_API_KEY.
+also need to add EMAIL_FROM, EMAIL_TO, and RESEND_API_KEY.
 
 Install requirements from requirements.txt.
